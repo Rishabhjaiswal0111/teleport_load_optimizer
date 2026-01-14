@@ -128,3 +128,4 @@ Available samples:
 - **Sequential dates**: < 0.01s for 22 orders
 - **Touching dates**: < 0.001s for 22 orders (O(n) optimization)
 - **Complex cases**: < 1s for up to 18 orders
+# teleport_load_optimizer
