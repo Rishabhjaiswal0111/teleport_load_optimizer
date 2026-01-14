@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  smartload-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartload-api
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/docs').read()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

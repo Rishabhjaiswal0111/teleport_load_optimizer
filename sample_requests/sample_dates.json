@@ -1,0 +1,15 @@
+{
+  "truck": {
+    "id": "truck_1",
+    "max_weight_lbs": 10000,
+    "max_volume_cuft": 1000
+  },
+  "orders": [
+    { "id": "o1", "payout_cents": 50000, "weight_lbs": 4000, "volume_cuft": 300,
+      "origin": "Chicago", "destination": "Dallas", "pickup_date": "2026-01-10", "delivery_date": "2026-01-11", "is_hazmat": false },
+    { "id": "o2", "payout_cents": 70000, "weight_lbs": 5000, "volume_cuft": 400,
+      "origin": "Chicago", "destination": "Dallas", "pickup_date": "2026-01-11", "delivery_date": "2026-01-12", "is_hazmat": false },
+    { "id": "o3", "payout_cents": 30000, "weight_lbs": 2000, "volume_cuft": 200,
+      "origin": "Chicago", "destination": "Dallas", "pickup_date": "2026-01-12", "delivery_date": "2026-01-13", "is_hazmat": false }
+  ]
+}

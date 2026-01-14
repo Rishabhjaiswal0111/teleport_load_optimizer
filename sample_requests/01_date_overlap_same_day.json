@@ -1,0 +1,31 @@
+{
+  "truck": {
+    "id": "truck_date_overlap",
+    "max_weight_lbs": 10000,
+    "max_volume_cuft": 1000
+  },
+  "orders": [
+    {
+      "id": "o1",
+      "payout_cents": 5000,
+      "weight_lbs": 1000,
+      "volume_cuft": 100,
+      "origin": "Mumbai",
+      "destination": "Delhi",
+      "pickup_date": "2026-01-01",
+      "delivery_date": "2026-01-05",
+      "is_hazmat": false
+    },
+    {
+      "id": "o2",
+      "payout_cents": 8000,
+      "weight_lbs": 1000,
+      "volume_cuft": 100,
+      "origin": "Mumbai",
+      "destination": "Delhi",
+      "pickup_date": "2026-01-05",
+      "delivery_date": "2026-01-10",
+      "is_hazmat": false
+    }
+  ]
+}

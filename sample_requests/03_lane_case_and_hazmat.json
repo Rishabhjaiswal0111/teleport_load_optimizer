@@ -1,0 +1,42 @@
+{
+  "truck": {
+    "id": "truck_lane_hazmat",
+    "max_weight_lbs": 10000,
+    "max_volume_cuft": 1000
+  },
+  "orders": [
+    {
+      "id": "nh1",
+      "payout_cents": 5000,
+      "weight_lbs": 3000,
+      "volume_cuft": 100,
+      "origin": "Chennai",
+      "destination": "Hyderabad",
+      "pickup_date": "2026-02-01",
+      "delivery_date": "2026-02-02",
+      "is_hazmat": false
+    },
+    {
+      "id": "nh2",
+      "payout_cents": 6000,
+      "weight_lbs": 3000,
+      "volume_cuft": 100,
+      "origin": "CHENNAI ",
+      "destination": "hyderabad",
+      "pickup_date": "2026-02-03",
+      "delivery_date": "2026-02-04",
+      "is_hazmat": false
+    },
+    {
+      "id": "hz1",
+      "payout_cents": 20000,
+      "weight_lbs": 3000,
+      "volume_cuft": 100,
+      "origin": "Chennai",
+      "destination": "Hyderabad",
+      "pickup_date": "2026-02-05",
+      "delivery_date": "2026-02-06",
+      "is_hazmat": true
+    }
+  ]
+}

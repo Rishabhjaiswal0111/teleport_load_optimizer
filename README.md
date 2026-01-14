@@ -5,8 +5,8 @@ A high-performance truck load optimization API that maximizes payout while respe
 ## How to run
 
 ```bash
-git clone <your-repo>
-cd smartload_fastapi_final_with_tests
+git clone git@github.com:Rishabhjaiswal0111/teleport_load_optimizer.git
+cd teleport_load_optimizer
 docker compose up --build
 # → Service will be available at http://localhost:8080
 ```
@@ -128,10 +128,3 @@ Available samples:
 - **Sequential dates**: < 0.01s for 22 orders
 - **Touching dates**: < 0.001s for 22 orders (O(n) optimization)
 - **Complex cases**: < 1s for up to 18 orders
-# teleport_load_optimizer
-# teleport_load_optimizer
-# teleport_load_optimizer
-# teleport_load_optimizer
-# teleport_load_optimizer
-# teleport_load_optimizer
-# teleport_load_optimizer
